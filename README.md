@@ -1,5 +1,7 @@
 # FreeCodeCamp Full-Stack Web Development Practice Repository
 
+Repository: https://github.com/Abhi-293/fullstack-fcc.git
+
 This repository contains my practice projects and assignments from the **FreeCodeCamp Full-Stack Web Development** course. The course teaches building hireable skills in the JavaScript ecosystem, covering HTML, CSS, JavaScript, React, Node.js, Next.js, TypeScript, databases, and testing.
 
 ## Course Resources
@@ -63,16 +65,54 @@ The course is structured with lessons, challenges, and projects. Below is an out
 
 This repo includes practice implementations of the course projects. Currently, it features:
 
-- `hometown-hompage/`: Contains the Hometown Homepage project (HTML, CSS, and related assets like `frontend.html`, `frontend.css`, `index.html`, and `frontend.jpg`).
+- `hometown-hompage/`: Contains the Hometown Homepage project (HTML, CSS, and related assets like `frontend.html`, `frontend.css`, and `frontend.jpg`).
 
 As I progress through the course, more projects and challenges will be added here.
 
+## Projects
+
+### Hometown Homepage
+The Hometown Homepage is a static website showcasing the wonders of Uttar Pradesh, India. It highlights top places to visit, including the Taj Mahal in Agra, Varanasi (the spiritual capital), and Lucknow (City of Nawabs). The site features a responsive design with a hero section, place cards, and a profile section for the creator, Abhishek Vishwakarma.
+
+- **Technologies Used**: HTML5, CSS3
+- **Features**:
+  - Hero section with background and descriptive text.
+  - Grid layout for place cards with images and descriptions.
+  - Profile card with image and bio.
+- **How to View**: Open `hometown-hompage/frontend.html` in a web browser to view the site.
+
 ## How to Use
 
-1. Clone or download this repository.
-2. Navigate to specific project folders (e.g., `hometown-hompage/`) to view or run the code.
-3. For interactive learning, follow along with the Scrimba course and refer to the original challenge code on GitHub.
-4. Open HTML files in a browser to see static projects in action.
+### Prerequisites
+- A modern web browser (e.g., Chrome, Firefox) to view HTML pages.
+- No additional setup or installations are required for static projects like the Hometown Homepage.
+
+### Getting Started
+1. **Clone the Repository**: Use `git clone https://github.com/Abhi-293/fullstack-fcc.git` to download the code.
+2. **Navigate to Projects**: Go to the specific project folder, e.g., `cd hometown-hompage/`.
+3. **View the Project**: Open `frontend.html` in your web browser to see the Hometown Homepage in action.
+4. **Explore Code**: Review the HTML and CSS files to understand the implementation.
+5. **Follow Along**: For deeper learning, enroll in the [Full-Stack Web Development Path on Scrimba](https://scrimba.com/fullstack-path-c0...) and refer to the [challenge code on GitHub](https://github.com/scrimba/learn-full...).
+
+## Contributing
+
+We welcome contributions to this practice repository! Here's how you can get involved:
+
+1. **Fork the Repository**: Click the "Fork" button on GitHub to create your own copy.
+
+2. **Create a Branch**: Make a new branch for your changes (e.g., `git checkout -b feature/new-project`).
+
+3. **Make Changes**: Implement your improvements or additions.
+
+4. **Commit and Push**: Commit your changes and push to your branch.
+
+5. **Submit a Pull Request**: Open a pull request on the original repository.
+
+6. **Follow Guidelines**: Ensure your code is clean, well-documented, and aligns with the project's goals.
+
+If you find issues or have suggestions, feel free to open an issue on GitHub.
+
+For more details, refer to the [GitHub documentation](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
 ## Notes
 

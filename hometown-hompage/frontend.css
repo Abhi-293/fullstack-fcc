@@ -1,9 +1,11 @@
+/* CSS Custom Properties for color palette */
 :root {
     --palette-light-yellow: #FFFD8F;
     --palette-light-green: #B0CE88;
     --palette-dark-green: #4C763B;
     --palette-very-dark-green: #043915;
 }
+ /* Global body styles: Sets font, alignment, and removes default margins */
 body{
     text-align: center;
     font-family: Arial, sans-serif;
@@ -11,6 +13,7 @@ body{
     padding: 0px;
    
 }
+ /* Container styles: Centers the content with background and border radius */
 .container{
     width: 450px;
     height: auto;
@@ -19,7 +22,7 @@ body{
     background-color: rgba(180, 229, 238, 0.8);
     border-radius: 10px;
 }
-
+ /* Hero section styles: Background image, size, and layout */
 .hero{
     width: 450px;
     /* height: auto; */
@@ -34,7 +37,7 @@ body{
     height: 40vh;
     font-size: 12px;
 }
-
+ /* Hero title styles: Color, font size, and text shadow */
 #heroh2{
     color: rgb(255, 255, 255);
     bottom: 20%;
@@ -43,6 +46,7 @@ body{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     background-color: rgb(33, 84, 114);
 }
+ /* Hero paragraph styles: Color, font size, line height, and text shadow */
 #heroP{
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -50,7 +54,7 @@ body{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     background-color: rgb(33, 84, 114);
 }
-
+ /* Grid layout for place cards: Flexbox with wrap and centering */
 .placegrid{
     display: flex;
     flex-wrap: wrap;
@@ -58,8 +62,8 @@ body{
     gap: 10px;
     width: 455px;
     margin : auto;
-}   
-
+}
+ /* Individual place card styles: Layout, colors, and transitions */
 .placecard{
     width: 100px;
     height: auto;
@@ -81,12 +85,13 @@ body{
     transition: all 0.3s ease;
     padding: 10px;
 }
+ /* Hover effect for place cards: Scale and shadow */
 .placecard:hover {
     background-color: var(--palette-light-green);
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
+ /* Image styles in place cards: Size and border radius */
 .placecard img{
     width: 80px;
     height: 80px;
@@ -94,11 +99,11 @@ body{
     text-align: justify;
     margin-bottom: 5px;
 }
-
+ /* Margin styles for headings and paragraphs in place cards */
 .placecard h3, .placecard p{
     margin: 0px 3px;
 }
-
+ /* Profile card styles: Layout, background, and shadow */
 .profilecard{
     display: flex;
     flex-direction: row;
@@ -114,7 +119,7 @@ body{
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
-
+ /* Profile image styles: Size and border radius */
 .profilecard img{
     width: 110px;
     height: 130px;
@@ -122,14 +127,14 @@ body{
     margin: auto;
     border-radius: 10px;
 }
-
+ /* Profile image container styles */
 .profileimg{
     border-radius: 10px;
     margin: auto;
     align-items: center;
-    
-}
-.profilecontent{
+    }
+     /* Profile content styles: Font size, alignment, and padding */
+    .profilecontent{
     font-size: 10px;
     text-align: justify;
     align-items: center;
